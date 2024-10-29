@@ -1,0 +1,47 @@
+ /* Integrantes.module.css */
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .listItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+  }
+  
+  .listItem:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .link {
+    color: #0070f3;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    color: #0056b3;
+  }
+     
