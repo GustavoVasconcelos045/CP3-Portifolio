@@ -9,6 +9,7 @@ export default function Header() {
                     <Link href="/">Início</Link>
                     <Link href="/integrantes">Integrantes</Link>
                     <Link href="/trabalhos/editarnotas">Editar Notas</Link>
+                    <Link href="/trabalhos/adicionar">Adicionar trabalho</Link>
                 </nav>
             </div>
         </header>
