@@ -5,7 +5,7 @@ const GlobalSolution = () => {
       titulo: 'Global Solution',
       descricao:
         'O projeto Global Solution visa o apadrinhamento de animais, com o objetivo de arrecadar fundos para iniciativas que protejam e preservem o oceano. Através do apadrinhamento, os participantes contribuem diretamente para a conservação marinha, promovendo a educação ambiental e incentivando ações sustentáveis.',
-      nota: 90, // Nota do trabalho
+      nota: 80, // Nota do trabalho
     };
   
     return (

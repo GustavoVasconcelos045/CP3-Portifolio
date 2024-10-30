@@ -5,8 +5,8 @@ const Checkpoints = () => {
       descricao:
         'Os Checkpoints são pequenos projetos avaliativos realizados ao longo do ano, que visam desenvolver habilidades práticas e teóricas em diferentes áreas do conhecimento. Cada projeto tem seu próprio conjunto de objetivos e é uma oportunidade para os alunos aplicarem o que aprenderam em sala de aula.',
       notas: {
-        nota1: 88,
-        nota2: 92,
+        nota1: 65,
+        nota2: 70,
         nota3: 85,
       },
     };

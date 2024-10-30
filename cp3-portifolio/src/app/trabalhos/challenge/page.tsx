@@ -4,7 +4,7 @@ const Challenge = () => {
       titulo: 'Challenge',
       descricao:
         'Este trabalho foi realizado em parceria com a Porto Seguro, onde desenvolvemos uma plataforma para autoatendimento do cliente. O objetivo era facilitar a interação dos usuários com os serviços da empresa, oferecendo uma interface amigável e acessível.',
-      nota: 85, // Nota do trabalho
+      nota: 70, // Nota do trabalho
     };
   
     return (

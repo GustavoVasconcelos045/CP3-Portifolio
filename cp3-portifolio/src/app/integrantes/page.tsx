@@ -5,22 +5,19 @@ import Image from 'next/image';
 
 const participantes = [
   {
-    nome: 'Felipe',
-    rm: "558916",
+    nome: 'Felipe - RM558916',
     foto: '/images/felipe.png', 
     github: 'https://github.com/FelipeSants08', 
     githubIcon: '/images/github-icon.png', 
   },
   {
-    nome: 'Gustavo',
-    rm: "558463",
+    nome: 'Gustavo - RM558463',
     foto: '/images/gustavo.png',
     github: 'https://github.com/GustavoVasconcelos045', 
     githubIcon: '/images/github-icon.png',
   },
   {
-    nome: 'Igor',
-    rm: "558532",
+    nome: 'Igor - RM558532',
     foto: '/images/igor.png', 
     github: 'https://github.com/Igorfelicori', 
     githubIcon: '/images/github-icon.png', 
