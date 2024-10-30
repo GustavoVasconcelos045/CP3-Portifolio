@@ -33,7 +33,7 @@ const EditarNotas = () => {
       <h1 className="text-3xl font-bold">Editar Notas</h1>
       <form onSubmit={handleSubmit} className="mt-6">
         <div className="mb-4">
-          <label className="block mb-1">Nota 1:</label>
+          <label className="block mb-1">Nota checkpoint 1:</label>
           <input
             type="number"
             name="nota1"
@@ -43,7 +43,7 @@ const EditarNotas = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-1">Nota 2:</label>
+          <label className="block mb-1">Nota checkpoint 2:</label>
           <input
             type="number"
             name="nota2"
@@ -53,7 +53,7 @@ const EditarNotas = () => {
           />
         </div>
         <div className="mb-4">
-          <label className="block mb-1">Nota 3:</label>
+          <label className="block mb-1">Nota checkpoint 3:</label>
           <input
             type="number"
             name="nota3"
