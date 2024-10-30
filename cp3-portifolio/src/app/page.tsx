@@ -4,11 +4,11 @@ export default function HomePage() {
   const generateDescription = (category: string) => {
     category = category.toLowerCase();
     if (category === "checkpoint") {
-      return "Feedback e notas dos CheckPoints";
+      return "CheckPoints";
     } else if (category === "globalsolution") {
-      return "Feedback e notas da Global Solution";
+      return "Global Solution";
     } else {
-      return "Feedback e notas do Challenge";
+      return "Challenge";
     }
   };
 

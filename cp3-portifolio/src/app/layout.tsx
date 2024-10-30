@@ -6,7 +6,7 @@ import "./globals.css";
 export const metadata: Metadata = {
     title: "Portifolio",
     description:
-        "Portifolio sobre projetos realizados no ano de 2024.",
+        "",
 };
 
 export default function RootLayout({

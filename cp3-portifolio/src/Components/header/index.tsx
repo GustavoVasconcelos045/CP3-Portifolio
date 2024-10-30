@@ -8,7 +8,7 @@ export default function Header() {
                 <nav className="flex gap-6 text-lg">
                     <Link href="/">Início</Link>
                     <Link href="/integrantes">Integrantes</Link>
-                    <Link href="/trabalhos">Trabalhos</Link>
+                    <Link href="/trabalhos/editarnotas">Editar Notas</Link>
                 </nav>
             </div>
         </header>
