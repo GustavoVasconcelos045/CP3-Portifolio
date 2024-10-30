@@ -13,9 +13,9 @@ export default function HomePage() {
   };
 
   const integrantes = [
-    { nome: "Igor", media: 8.5 },
-    { nome: "Felipe", media: 9.0 },
-    { nome: "Gustavo", media: 8.7 },
+    { nome: "Igor", media: 8.0 },
+    { nome: "Felipe", media: 7.3 },
+    { nome: "Gustavo", media: 7.0 },
   ];
 
   return (
@@ -33,7 +33,7 @@ export default function HomePage() {
             <h2 className="font-semibold text-xl">{category}</h2>
             <p className="text-center mt-2">{generateDescription(category)}</p>
             <Link
-              href={`/projetos/${category.toLowerCase()}`}
+              href={`/trabalhos/${category.toLowerCase()}`}
               className="mt-4 py-2 px-4 font-semibold bg-blue-800 text-white rounded-lg transition-all duration-300 ease-in-out hover:bg-blue-700"
             >
               Ver Mais
@@ -43,7 +43,7 @@ export default function HomePage() {
       </div>
 
       <h2 className="font-semibold text-2xl mt-12">Médias Gerais - 1º Semestre</h2>
-      <p className="text-center mb-6">Abaixo estão as médias gerais de cada integrante no semestre. Clique para mais detalhes.</p>
+      <p className="text-center mb-6">Abaixo estão as médias gerais de cada integrante no semestre.</p>
 
       <div className="flex flex-wrap justify-center gap-6">
         {integrantes.map((integrante) => (
