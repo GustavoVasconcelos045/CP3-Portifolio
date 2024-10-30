@@ -13,7 +13,7 @@ export default function HomePage() {
   };
 
   const integrantes = [
-    { nome: "Igor", media: 8.0 },
+    { nome: "Igor", media: 7.6 },
     { nome: "Felipe", media: 7.3 },
     { nome: "Gustavo", media: 7.0 },
   ];
